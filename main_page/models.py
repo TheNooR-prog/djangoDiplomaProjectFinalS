@@ -203,4 +203,4 @@ class UserContact(models.Model):
         ordering = ('-date', '-is_processed', )
 
     def __str__(self):
-        return f'{self.date[:11]} | {self.subject}: {self.message[:50]}'
+        return f'{str(self.date)[:11]} | {self.subject}: {self.message[:50]}'
