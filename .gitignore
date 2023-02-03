@@ -1,2 +1,10 @@
 venv
 venv/
+db.sqlite3
+media
+media/
+main_page/migrations
+main_page/migrations/
+.idea
+.idea/
+
